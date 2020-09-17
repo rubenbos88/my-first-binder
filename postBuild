@@ -1,3 +1,4 @@
 wget -q -O gapminder.csv http://bit.ly/2uh4s3g
 
 jupyter labextension install @jupyter-widgets/jupyterlab-manager
+jupyter nbextension enable --py widgetsnbextension
